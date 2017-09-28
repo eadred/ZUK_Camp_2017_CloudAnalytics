@@ -1,0 +1,56 @@
+[
+  {
+    "name": "key",
+    "type": "STRING"
+  },
+  {
+    "name": "tweetid",
+    "type": "INT64"
+  },
+  {
+    "name": "content",
+    "type": "STRING"
+  },
+  {
+    "name": "usr",
+    "type": "STRING"
+  },
+  {
+    "name": "tstamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "location",
+    "type": "RECORD",
+    "fields": [
+      {
+        "name": "longitude",
+        "type": "FLOAT"
+      },
+      {
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "name": "geolocated",
+        "type": "BOOLEAN"
+      }
+    ]
+  },
+  {
+    "name": "language",
+    "type": "STRING"
+  },
+  {
+    "name": "place",
+    "type": "STRING"
+  },
+  {
+    "name": "favourites",
+    "type": "INTEGER"
+  },
+  {
+    "name": "sentiment",
+    "type": "FLOAT"
+  }
+]
