@@ -1,0 +1,14 @@
+[
+  {
+    "name": "usr",
+    "type": "STRING"
+  },
+  {
+    "name": "tstamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "content",
+    "type": "STRING"
+  }
+]
